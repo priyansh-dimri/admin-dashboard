@@ -8,13 +8,19 @@
     src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
 }
 
-body {
-    font-family: content-font, Georgia, 'Times New Roman', Times, serif;
-}
-
 :root {
     --logo-size: 40px;
     --icon-size: 20px;
+
+    --dark-background-color: #34d399;
+
+    --dark-font-color: #022c22;
+    --light-font-color: #ecfdf5;
+}
+
+body {
+    font-family: content-font, Georgia, 'Times New Roman', Times, serif;
+    color: var(--dark-font-color);
 }
 
 .container {
@@ -31,6 +37,8 @@ body {
     flex-direction: column;
     gap: 2rem;
     padding: 1rem;
+    background-color: var(--dark-background-color);
+    color: var(--light-font-color);
 }
 
 .logo-container,
@@ -54,6 +62,7 @@ body {
     flex-direction: column;
     gap: 0.5rem;
 }
+
 .nav-element {
     gap: 0.5rem;
     padding-left: 0.5rem;
