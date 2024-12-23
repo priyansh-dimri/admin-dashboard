@@ -11,6 +11,7 @@
 :root {
     --logo-size: 40px;
     --icon-size: 20px;
+    --profile-size: 50px;
 
     --dark-background-color: #34d399;
     --light-background-color: #ecfdf5;
@@ -117,4 +118,33 @@ body {
 .profile-name {
     font-family: heading-font;
     font-size: x-small;
+}
+
+.welcome-container {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-template-rows: 2fr 3fr;
+    gap: 0.5rem;
+    justify-items: center;
+}
+
+.large-icon {
+    grid-row: 1 / -1;
+    height: var(--profile-size);
+}
+
+.hi-there-text,
+.large-profile-name {
+    justify-self: start;
+    font-weight: bold;
+}
+
+.hi-there-text {
+    align-self: end;
+    font-size: xx-small;
+}
+
+.large-profile-name {
+    font-size: medium;
+    align-self: start;
 }
