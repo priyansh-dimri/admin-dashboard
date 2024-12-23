@@ -13,6 +13,8 @@
     --icon-size: 20px;
 
     --dark-background-color: #34d399;
+    --light-background-color: #ecfdf5;
+    --dim-background-color: #a7f3d0;
 
     --dark-font-color: #022c22;
     --light-font-color: #ecfdf5;
@@ -21,6 +23,7 @@
 body {
     font-family: content-font, Georgia, 'Times New Roman', Times, serif;
     color: var(--dark-font-color);
+    background-color: var(--light-background-color);
 }
 
 .container {
