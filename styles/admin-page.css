@@ -12,6 +12,11 @@ body {
     font-family: content-font, Georgia, 'Times New Roman', Times, serif;
 }
 
+:root {
+    --logo-size: 40px;
+    --icon-size: 20px;
+}
+
 .container {
     display: grid;
     height: 100vh;
@@ -26,6 +31,37 @@ body {
     flex-direction: column;
     gap: 2rem;
     padding: 1rem;
+}
+
+.logo-container,
+.nav-element {
+    display: flex;
+    align-items: center;
+    font-family: heading-font;
+}
+
+.logo-container {
+    font-size: large;
+    font-weight: bold;
+}
+
+.logo-image {
+    width: var(--logo-size);
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.nav-element {
+    gap: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: smaller;
+}
+
+.nav-icon {
+    width: var(--icon-size);
 }
 
 .header {
