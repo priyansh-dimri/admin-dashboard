@@ -19,6 +19,8 @@
 
     --dark-font-color: #022c22;
     --light-font-color: #ecfdf5;
+
+    --shadow-color: #022c22;
 }
 
 body {
@@ -42,6 +44,7 @@ body {
     padding: 1rem;
     background-color: var(--dark-background-color);
     color: var(--light-font-color);
+    z-index: 1;
 }
 
 .logo-container,
@@ -85,6 +88,7 @@ body {
     grid-template-rows: 1fr 2fr;
     gap: 0.5rem;
     padding: 0.5rem 0.5rem;
+    box-shadow: 0px 0px 5px var(--shadow-color);
 }
 
 .search-container {
@@ -147,4 +151,10 @@ body {
 .large-profile-name {
     font-size: medium;
     align-self: start;
+}
+
+/* Main and Main elements styling */
+.main {
+    background-color: var(--dim-background-color);
+    z-index: -1;
 }
