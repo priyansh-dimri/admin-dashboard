@@ -1,3 +1,13 @@
+@font-face {
+    font-family: heading-font;
+    src: url(../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: content-font;
+    src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
 .container {
     display: grid;
     height: 100vh;
