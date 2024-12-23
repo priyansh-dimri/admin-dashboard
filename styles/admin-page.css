@@ -75,7 +75,13 @@ body {
     width: var(--icon-size);
 }
 
+/* Header and Header elements styling */
 .header {
     grid-column: 2 / -1;
     background-color: var(--light-background-color);
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 0.5rem;
+    padding: 0.5rem 0.5rem;
 }
