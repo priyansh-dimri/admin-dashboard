@@ -5,8 +5,13 @@
     grid-template-rows: 1fr 5fr;
 }
 
+/* Sidebar and Sidebar elements styling */
 .sidebar {
     grid-row: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
 }
 
 .header {
