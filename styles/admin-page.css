@@ -153,6 +153,25 @@ body {
     align-self: start;
 }
 
+.action-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    align-items: center;
+}
+
+.action-button {
+    height: max-content;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 0.4rem;
+    font-size: x-small;
+    font-weight: bold;
+    background-color: var(--dark-background-color);
+    color: var(--light-font-color);
+}
+
 /* Main and Main elements styling */
 .main {
     background-color: var(--dim-background-color);
