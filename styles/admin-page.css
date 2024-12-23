@@ -8,6 +8,10 @@
     src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
 }
 
+body {
+    font-family: content-font, Georgia, 'Times New Roman', Times, serif;
+}
+
 .container {
     display: grid;
     height: 100vh;
