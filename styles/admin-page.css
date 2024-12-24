@@ -8,6 +8,11 @@
     src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
 }
 
+@font-face {
+    font-family: description-font;
+    src: url(../fonts/Merriweather/Merriweather-Light.ttf);
+}
+
 :root {
     --logo-size: 40px;
     --icon-size: 20px;
@@ -218,6 +223,7 @@ body {
 }
 
 .project-description {
+    font-family: description-font;
     font-size: smaller;
     line-height: 0.8rem;
 }
