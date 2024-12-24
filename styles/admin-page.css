@@ -194,9 +194,9 @@ body {
 }
 
 .container-heading {
-    font-family: heading-font;
     font-weight: bold;
-    margin-bottom:0.2rem;
+    font-size: 1rem;
+    margin:0 0 0.4rem 0.4rem;
 }
 
 .project-display-container {
