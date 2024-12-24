@@ -238,3 +238,27 @@ body {
   justify-content: end;
   gap: 1rem;
 }
+
+.announcement-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.announcement-display-container {
+    flex: 1;
+    display: grid;
+    gap: 0.5rem;
+}
+.announcement-heading {
+    font-size: 0.7rem;
+    font-family: heading-font;
+    font-weight: bold;
+}
+
+.announcement-description {
+    font-size: 0.6rem;
+    font-family: description-font;
+}
+.divider-line {
+    border-top: 1px solid grey;
+}
