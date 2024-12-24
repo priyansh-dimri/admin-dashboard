@@ -210,6 +210,11 @@ body {
     grid-row: 1fr 3fr 1fr;
 }
 
+.project-title {
+    font-family: heading-font;
+    font-weight: bold;
+}
+
 .shadow-container {
     box-shadow: var(--soft-shadow);
     background-color: var(--light-background-color);
