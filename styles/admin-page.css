@@ -176,4 +176,12 @@ body {
 .main {
     background-color: var(--dim-background-color);
     z-index: -1;
+
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-template-rows: 2rem 1fr 2rem 1fr;
+}
+
+.project-container {
+    grid-row: 2 / -1;
 }
