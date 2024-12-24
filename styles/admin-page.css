@@ -185,12 +185,19 @@ body {
 .main {
     background-color: var(--dim-background-color);
     z-index: -1;
-
+    
     display: grid;
     grid-template-columns: 5fr 2fr;
     grid-template-rows: repeat(2, 1fr);
     padding: 1rem;
     gap: 1rem;
+}
+
+.shadow-container {
+    box-shadow: var(--soft-shadow);
+    background-color: var(--light-background-color);
+    border-radius: 10px;
+    padding: 1rem;
 }
 
 .project-container {
@@ -232,11 +239,4 @@ body {
     display: flex;
     justify-content: end;
     gap: 1rem;
-}
-
-.shadow-container {
-    box-shadow: var(--soft-shadow);
-    background-color: var(--light-background-color);
-    border-radius: 10px;
-    padding: 1rem;
 }
