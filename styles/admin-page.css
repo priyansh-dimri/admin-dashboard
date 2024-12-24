@@ -203,4 +203,6 @@ body {
 .shadow-container {
     box-shadow: var(--soft-shadow);
     background-color: var(--light-background-color);
+    border-radius: 10px;
+    padding: 1rem;
 }
