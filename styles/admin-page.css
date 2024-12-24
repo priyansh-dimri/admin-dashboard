@@ -29,6 +29,7 @@
 body {
     font-family: content-font, Georgia, 'Times New Roman', Times, serif;
     color: var(--dark-font-color);
+    font-size: 0.8rem;
 }
 
 .container {
