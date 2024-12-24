@@ -183,13 +183,17 @@ body {
 
     display: grid;
     grid-template-columns: 5fr 2fr;
-    grid-template-rows: 1rem 1fr 1rem 1fr;
+    grid-template-rows: repeat(2, 1fr);
     padding: 1rem;
     gap: 1rem;
 }
 
 .project-container {
-    grid-row: 2 / -1;
+    grid-row: 1 / -1;
+    
+}
+
+.project-display-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
